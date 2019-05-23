@@ -17,7 +17,7 @@ class Owner
   attr_accessor :name
   attr_reader :species
   
-  def intitialize(species)
+  def initialize(species)
     @@all << self
     @species = species
     
