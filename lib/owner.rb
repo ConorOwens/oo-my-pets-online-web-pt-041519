@@ -14,10 +14,13 @@ class Owner
     @@all = []
   end
   
+  attr_accessor :name
   attr_reader :species
   
   def intitialize(species)
+    @@all << self
     @species = species
+    
   end
   
   def say_species
