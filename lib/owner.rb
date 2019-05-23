@@ -31,12 +31,12 @@ class Owner
     @pets[:fishes] << Fish.new(name) unless @pets[:fishes].include?(Fish.new(name))
   end
   
-  def buy_fish(name)
-    @pets[:fishes] << Fish.new(name) unless @pets[:fishes].include?(Fish.new(name))
+  def buy_cat(name)
+    @pets[:cats] << Cat.new(name) unless @pets[:cats].include?(Cat.new(name))
   end
   
-  def buy_fish(name)
-    @pets[:fishes] << Fish.new(name) unless @pets[:fishes].include?(Fish.new(name))
+  def buy_dog(name)
+    @pets[:dogs] << Dog.new(name) unless @pets[:dogs].include?(Dog.new(name))
   end
   
 end
