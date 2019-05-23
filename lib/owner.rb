@@ -39,4 +39,8 @@ class Owner
     @pets[:dogs] << Dog.new(name) unless @pets[:dogs].include?(Dog.new(name))
   end
   
+  def walk_dogs
+    @dogs.each {|dog| dog.mood = "happy"}
+  end
+  
 end
