@@ -28,7 +28,7 @@ class Owner
   end
   
   def buy_fish(name)
-    @pets[fish] << Fish.new(name) unless @pets[fish].include?
+    @pets[fishes] << Fish.new(name) unless @pets[fishes][name]
   end
   
 end
